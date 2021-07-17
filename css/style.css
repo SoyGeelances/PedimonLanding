@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;500;600;700;800;900&display=swap');
 
 
 /* ----- GLOBALS -----  */
@@ -31,15 +31,73 @@ a {
     color: #0c4da2;
 }
 
-.col-2 {
-    width: 42%;
+p {
+    font-size: 18px;
+    font-weight: 300;
 }
+
+.col-2 {
+    width: 40%;
+    padding: 10px 10px;
+}
+
+.col-3 {
+    width: 30%;
+    padding: 10px 15px;
+}
+
+button.btn-first {
+    padding: 12px 5px;
+    border-radius: 15px;
+    border: none;
+    background: #0c4da2;
+}
+
+button.btn-second {
+    padding: 12px 25px;
+    border-radius: 15px;
+    border: none;
+    background: #f7de82;
+}
+
+button > a {
+    color: #fff;
+}
+
+.section-inline {
+    display: inline-block;
+}
+
+.items-center {
+    text-align: center;
+    width: 100%;
+}
+
+.tit-section-blue h2{
+    font-size: 2.8em;
+    color: #f7de82;
+    text-transform: uppercase;
+    margin: 1% auto;
+}
+
+.tit-section-white h2{
+    font-size: 2.8em;
+    color: #0c4da2;
+    margin: 1% auto;
+}
+
+.elements-icon-sect-blue, .box-cards {
+    justify-content: space-around;
+    text-align: center;
+}
+
+
 
 
 
 /* ----- HEADER ----- */
 
-nav, .full-container {
+nav, .section-yellow {
     background: #f7de82;
 }
 
@@ -62,8 +120,85 @@ a.menu-ul {
     font-weight: 600;
 }
 
+/* ----- SLIDER ----- */
+
 .slider-container {
-    justify-content: space-between;
-    margin: 8% auto;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% auto;
 }
 
+p.p-slider {
+    font-size: 23px;
+    font-weight: 300;
+}
+
+
+/* ----- SECTION BLUE ----- */
+
+.section-blue {
+    background: #0c4da2;
+    padding: 5% 0%;
+}
+
+.elements-center-inside {
+    text-align: center;
+    width: 24%;
+}
+
+.section-blue p {
+    color: #fff;
+}
+
+.section-blue img {
+    width: 25%;
+}
+
+.tit-section-blue {
+    margin-bottom: 3%;   
+}
+
+
+/* ----- SECTION POKEMONS ----- */
+
+.card-pokemon {
+    box-shadow: -1px 0px 27px 5px rgba(0,0,0,0.42);
+    -webkit-box-shadow: -1px 0px 27px 5px rgba(0,0,0,0.42);
+    -moz-box-shadow: -1px 0px 27px 5px rgba(0,0,0,0.42);
+    text-align: center;
+    border-radius: 13%;
+    padding: 2%;
+    margin: 0 5%
+}
+
+.box-cards img {
+    width: 65%;
+}
+
+.section-white {
+    padding: 5% 0%;
+}
+
+.box-cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0;
+}
+
+.box-cards p {
+    text-transform: uppercase;
+    color: #0c4da2;
+    font-weight: 400;
+    margin: 5% 0;
+    flex-wrap: wrap;
+}
+
+p.precio {
+    font-size: 3em;
+    font-weight: 800;
+    margin: 1% 0;
+}
+
+.box-cards button {
+    margin-top: 8%;
+}
